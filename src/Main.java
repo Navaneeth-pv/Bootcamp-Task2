@@ -37,6 +37,24 @@ public class Main {
                 System.out.println("The largest number is: "+largest);
                 break;
 
+            case '2':
+
+                double smallest,tempo;
+
+                System.out.println("Enter first number");
+                a = sc.nextDouble();
+
+                System.out.println("Enter second number");
+                b = sc.nextDouble();
+                System.out.println("Enter first number");
+                c = sc.nextDouble();
+
+                tempo=a>b?b:a;
+
+               smallest =c>tempo?tempo:c;
+
+                System.out.println("The smallest number is: "+smallest);
+                break;
 
         }
     }
